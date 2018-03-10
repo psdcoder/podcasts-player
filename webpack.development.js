@@ -25,6 +25,7 @@ module.exports = {
     ],
   },
   resolve: {
+    extensions: ['.js', '.jsx', '.json'],
     modules: [paths.src, paths.nodeModules],
   },
   plugins: [
