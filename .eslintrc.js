@@ -15,8 +15,9 @@ module.exports = {
     },
   },
   rules: {
+    'jsx-a11y/media-has-caption': 'off',
     'import/prefer-default-export': 'off',
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["webpack.*.js"]}],
+    'import/no-extraneous-dependencies': ['error', {devDependencies: ['webpack.*.js']}],
     'max-len': [
       'warn',
       120,

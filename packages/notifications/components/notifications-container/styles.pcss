@@ -1,0 +1,23 @@
+.notifications-container {
+  transform: translate3d(0, 0, 0);
+}
+
+.notifications-container__message_enter {
+  opacity: 0.01;
+  transform: translate3d(0, 100%, 0);
+}
+
+.notifications-container__message_enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity, transform 150ms ease-in;
+}
+
+.notifications-container__message_leave {
+  opacity: 1;
+}
+
+.notifications-container__message_leave.notifications-container__message_leave-active {
+  opacity: 0.01;
+  transition: opacity 250ms ease-out;
+}
